@@ -11,6 +11,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width{
@@ -22,7 +23,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-color: coral;
+    background-color: orange;
     padding: 10px 40px;
     border-radius: 8%;
     color: white;
@@ -32,4 +33,9 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.donot-Run{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
